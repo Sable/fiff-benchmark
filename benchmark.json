@@ -1,0 +1,17 @@
+{
+   "type": "benchmark",
+   "name":"fiff",
+   "short-name":"fiff",
+   "description":"Compute the finite-difference solution to a given wave equation",
+   "version":"1.0.0",
+   "input-size":{
+      "small":1,
+      "medium":5,
+      "large": 25
+   },
+   "expected-output": {
+      "small": 7186,
+      "medium": 7186,
+      "large": 7186
+   }
+}
